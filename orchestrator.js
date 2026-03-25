@@ -1,3 +1,4 @@
+import "./proxy.js";
 import { readFileSync, globSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath, pathToFileURL } from "url";
